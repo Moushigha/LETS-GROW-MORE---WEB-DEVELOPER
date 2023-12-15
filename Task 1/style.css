@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    min-width: 250px;
+    background-color: goldenrod;
+    background-size: cover;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  /* Darker background-color on hover */
+  ul li:hover {
+    background: #ddd;
+  }
+  
+  .header {
+    background-color: rgba(152, 239, 121, 0.7);
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  input {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 75%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"] {
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 9px;
+    border: 2px solid #2c2727;
+    border-radius: 3px;
+    background-color: white;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  span {
+    display: block;
+    position: absolute;
+    color: #555555;
+  }
+  
+  .item ul li button {
+    position: relative;
+    left: 150px;
+  }
+  
+  .addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: right;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  
+  .delete-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
