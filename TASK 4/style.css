@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(3, 24, 24);
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px 8px 0 0;
+    background: rgb(223, 210, 210);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    background-color: rgb(27, 75, 75);
+ 
+}
+
+.result{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #413e3e;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.buttons{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1px; 
+    background-color: rgb(27, 75, 75);
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+    background-color: rgb(27, 75, 75);
+    border: #e0e0e0;
+}
+
+ .row button{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 75px;
+    height: 75px;
+    border-radius: 0 0 0 0;
+    outline: none;
+    border: #e0e0e0;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.2s all linear; 
+    background-color: rgb(27, 75, 75);
+} 
+
+.row button:hover{
+    background-color: #354e53;
+}
+
+.row button:active{
+    background-color: #eeb3b3;
+}
+
+#equal{
+    width: 150px;
+}
+
+#dot{
+    font-weight: 600;
+}
